@@ -1,0 +1,36 @@
+body{
+  font-family: DangerMode, Calibri, Arial;
+  background-image: linear-gradient(#ff3399, #ffcccc );
+}
+h1{
+  text-align: center;
+  font-family: Candara, Calibri, Arial;
+}
+#content {
+  margin: auto;
+  width: 500px;
+  text-align: justify;
+}
+.segment {
+  border: 10px;
+  border-style: groove;
+  border-color: teal;
+  padding: 10px;
+    /* border-width: 1px;
+    border-color: #000000;
+    border-style: solid; */
+  }
+  p {
+    margin-top: 0px;
+  }
+
+.segment img {
+  max-width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.centerimg {
+ clear: both;
+}
