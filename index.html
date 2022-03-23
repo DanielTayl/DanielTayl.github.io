@@ -1,21 +1,38 @@
-
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html>
 <head>
-   <title>My Webpage</title>
-   <link rel="stylesheet" href="css/style.css">
-   </head>
-  <body>
-<div id="content">
-  <div id="headerbox">
-<h1>My webpage</h1>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Final Project Daniel taylor</title>
+<link rel="icon" type="image.jpg" href="Favicon.png">
+<style>
+</style>
+</head>
+<body>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="jsFighter.html">JSfighter</a>
+    <a href="game.html">Get To School!</a>
   </div>
-  <div class="segment">
-    <a href="game.html">play my game</a>
-  <img src="img/images.jfif" class="centerimg">
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum</p>
-<img src="img/xbox.jfif" alt="">
-<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum</p>
-  </div>
-  </div>
-  </body>
-  </html>
+</div>
+<span id="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<h1><strong>WHAT'S GOOD MY GAMERS</strong></h1>
+<img src="images.jpg" alt="xbox" id="img">
+<p1>Opinion based <strong>BUT</strong> xbox is the best and will always be the best. Not just because its an easy and cheap console, but also because its competing against google services, not PS4! </p1>
+<p2><strong> quick tip- You can play some games if you drop down the menu. also if you want to see the time, just click the button</strong> SEE YAA</p2>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+</body>
+</html>
